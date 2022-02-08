@@ -3,7 +3,7 @@
     "short_name": "Hent hund",
     "description": "Find en hund",
     "start_url": "./index.html",
-    "scope": "./",
+    "scope": "./gawmane.github.io/Hent-en-hund---PWA/index.html",
     "background_color": "#EDB506",
     "theme_color": "#333333",
     "display": "standalone",
