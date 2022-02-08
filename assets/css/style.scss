@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+body{
+    margin: auto;
+   
+//Header passer til begge sider
+header{
+    text-align: center;
+    background-color: #313131;
+    font-family: 'Caveat', cursive;
+    padding: 0.1em;
+    
+    h1{
+        font-size: 3em;
+        color: #EDB506;
+    }
+}
+//Main - index
+main{
+    background-color: #EDB506;
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+}
+//Main info
+.infoWrapper{
+    background-color: white;
+    padding: 1em;
+    h2{
+        text-align: center;
+    }
+    article{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+    padding: 4rem 8rem;
+    border: 3px solid #333333;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;  
+        
+}
+    
+}
+
+//Footer på begge side
+footer{
+    background-color: #313131;
+    padding: 0.5em;
+    text-align: center;
+    &:hover{
+        background-color: white;
+    }
+    a{
+        text-decoration: none;
+        font-size: 3em;
+        color: #EDB506; 
+        font-family: 'Caveat', cursive;
+        cursor: pointer;
+        &:hover{
+            color: black;
+        }
+    }
+}
+}
