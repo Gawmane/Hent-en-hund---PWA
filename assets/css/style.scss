@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
 body{
     margin: auto;
+
+    
    
 //Header passer til begge sider
 header{
@@ -27,18 +29,19 @@ img{
 //Main info
 .infoWrapper{
     background-color: white;
-    padding: 1em;
+    padding: 2em 0;
+  
     h2{
         text-align: center;
     }
-    article{
+    article{  
      display: block;
      margin-left: auto;
      margin-right: auto;
-     width: 50%;
-    padding: 4rem 8rem;
+     width: 40%;
+    padding: 1rem 3rem;
     border: 3px solid #333333;
-    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;  
+    border-radius: 2% 4% 2% 4% / 1% 1% 2% 2%;  
         
 }
     
@@ -46,8 +49,11 @@ img{
 
 //Footer på begge side
 footer{
+    position: static;
+  bottom: 0;
+  width: 100%;
     background-color: #313131;
-    padding: 0.5em;
+    padding: 0.5em 0;
     text-align: center;
     &:hover{
         background-color: white;
@@ -58,6 +64,7 @@ footer{
         color: #EDB506; 
         font-family: 'Caveat', cursive;
         cursor: pointer;
+        
         &:hover{
             color: black;
         }

@@ -1,0 +1,61 @@
+{
+    "name": "Hent en hund",
+    "short_name": "Hent hund",
+    "description": "Find en hund",
+    "start_url": "/index.html",
+    "scope": "/",
+    "background_color": "#EDB506",
+    "theme_color": "#333333",
+    "display": "standalone",
+    
+
+    "icons": [
+        {
+          "src": "assets/icons/icon-72x72.png",
+          "sizes": "72x72",
+          "type": "image/png"
+        },
+        {
+          "src": "assets/icons/icon-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        },
+        {
+          "src": "assets/icons/icon-128x128.png",
+          "sizes": "128x128",
+          "type": "image/png"
+        },
+        {
+          "src": "assets/icons/icon-144x144.png",
+          "sizes": "144x144",
+          "type": "image/png"
+        },
+        {
+          "src": "assets/icons/icon-152x152.png",
+          "sizes": "152x152",
+          "type": "image/png"
+        },
+        {
+          "src": "assets/icons/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+       
+        {
+          "src": "assets/icons/icon-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"         
+        }
+      ],
+
+        "shortcuts": [{
+            "name": "info",
+            "short_name": "info",
+            "description": "Info om hund",
+            "url": "./info.html",
+            "icons": [{"src": "assets/icons/icon-512x512.png",
+                "sizes": "512x512"}]
+        }]
+      
+
+}
