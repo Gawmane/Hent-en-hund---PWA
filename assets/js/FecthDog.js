@@ -13,20 +13,13 @@ const getGoalList = async() => {
             //Variabel til vores html div
             const dogWrapper = document.querySelector('.dogWrapper');
 
-
-            //Laver en ny div hvor vi indsætter vores icon fra vores data (icon)
+            //Laver en ny div hvor vi indsætter vores image fra vores data (img)
             const img = document.createElement('div');
             img.innerHTML = `<img  src='${data.message} '/>`;
             
-            
-            
-            
-            
-
-            
            
 
-            // //Sætter vores divWrapper i vores main fra HTML
+            // //Sætter vores img i vores main fra HTML
             document.querySelector('main').append(img);
             dogWrapper.append(img);
       

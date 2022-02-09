@@ -1,40 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Road+Rage&display=swap');
+
 body{
     margin: auto;
-
+    background-image: url("paw.png");
+    
+    
     
    
 //Header passer til begge sider
 header{
     text-align: center;
-    background-color: #313131;
-    font-family: 'Caveat', cursive;
+    background-color: #A4C4B5;
+    font-family:'EB Garamond', serif;
+    font-size: 1em;
     padding: 0.1em;
     
     h1{
         font-size: 3em;
-        color: #EDB506;
+        color: #fff;
+        i {
+            color: #ffffff;
+            &:hover {
+                color: #000;
+            }
     }
 }
+}
 //Main - index
-main{
-    background-color: #EDB506;
+main{ 
+    margin: 1.5em;
+    
 img{
+    min-height:60vh;
+    max-height: 100vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
+   background-color: #F7F7F7;
+   border: 0.5em solid #000;
+   border-radius: 2% 4% 5% 4% / 1% 1% 2% 2%; 
+    
 }
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    font-size: 1em;
+    color: #fff;
+    background-color: #A4C4B5;
+    border: solid 2px black;
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;;
+    cursor: pointer;
+    &:hover{
+        background-color: #000;
+    }
+}
+
 }
 //Main info
 .infoWrapper{
-    background-color: white;
+   
     padding: 2em 0;
   
     h2{
         text-align: center;
+        
     }
     article{  
+        background-color: #c7ebda;
      display: block;
      margin-left: auto;
      margin-right: auto;
@@ -50,19 +87,19 @@ img{
 //Footer på begge side
 footer{
     position: static;
-  bottom: 0;
+
   width: 100%;
-    background-color: #313131;
+    background-color: #A4C4B5;
     padding: 0.5em 0;
     text-align: center;
     &:hover{
-        background-color: white;
+        background-color: #c7ebda;
     }
     a{
         text-decoration: none;
         font-size: 3em;
-        color: #EDB506; 
-        font-family: 'Caveat', cursive;
+        color: #fff; 
+        font-family:'EB Garamond', serif;
         cursor: pointer;
         
         &:hover{
