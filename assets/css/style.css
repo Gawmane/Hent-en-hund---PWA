@@ -30,8 +30,8 @@ body main {
 }
 
 body main img {
-  max-width: 60%;
-  min-height: 50vh;
+  max-width: 70%;
+  min-height: 80vh;
   max-height: 80vh;
   display: block;
   margin-left: auto;
