@@ -4,7 +4,7 @@ body{
     margin: auto;
     background-image: url("paw.png");
     
-    
+ 
     
    
 //Header passer til begge sider
@@ -30,7 +30,12 @@ header{
 main{ 
     margin: 1.5em;
     min-height: 70vh;
-    
+    h3{
+        font-size: 3em;
+            color: rgb(224, 16, 16); 
+            font-family:'EB Garamond', serif;
+            text-align: center;
+    }
 img{
     max-width: 70%;
     
@@ -43,6 +48,7 @@ img{
    border-radius: 2% 4% 5% 4% / 1% 1% 2% 2%; 
     
 }
+
 button {
     display: block;
     margin-left: auto;
