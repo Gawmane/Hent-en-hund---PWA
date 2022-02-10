@@ -18,7 +18,7 @@ if("serviceWorker" in navigator){
 fetch('https://dog.ceo/api/breeds/image/random')
 .then(response => response.json())
 .then(data => {
-    document.querySelector(".dogWrapper").setAttribute("src", `${data.message}`)
+    document.querySelector('.dogWrapper').setAttribute("src", `${data.message}`)
 })
 .catch (err => {
         
