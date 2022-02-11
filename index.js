@@ -37,10 +37,10 @@ fetch('https://dog.ceo/api/breeds/image/random')
         //OPretter h3 der skal give besked om offline når der ingen net forbindelse er
         const h3 = document.createElement('h3');
         h3.innerHTML = 'Du er ofline'
-        h3.style.textAlign = 'center';
-        h3.style.fontSize = '2em';
-        h3.style.backgroundColor = '#A4C4B5'
-        h3.style.color = '#fff'
+        // // h3.style.textAlign = 'center';
+        // // h3.style.fontSize = '2em';
+        // // h3.style.backgroundColor = '#A4C4B5'
+        // // h3.style.color = '#fff'
 
         dogWrapper.append(h3)
 
