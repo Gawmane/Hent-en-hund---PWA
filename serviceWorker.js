@@ -25,6 +25,7 @@ self.addEventListener('fetch', function(e){
 
 //Cach fallback network
  self.addEventListener('fetch', function (event) {
+     //Det der returner noget der kommer tilbage til browseren (respondWith)
      event.respondWith(
        caches.match(event.request).then(function (response) {
          return response || fetch(event.request);
