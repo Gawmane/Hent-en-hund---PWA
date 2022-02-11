@@ -1,12 +1,10 @@
+//Inport af font
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Road+Rage&display=swap');
 
 body{
     margin: auto;
     background-image: url("paw.png");
     
- 
-    
-   
 //Header passer til begge sider
 header{
     text-align: center;
@@ -23,9 +21,10 @@ header{
             &:hover {
                 color: #000;
             }
+        }
     }
 }
-}
+
 //Main - index
 main{ 
     margin: 1.5em;
@@ -38,7 +37,6 @@ main{
     }
 img{
     max-width: 70%;
-    
     max-height: 60vh;
     display: block;
     margin-left: auto;
@@ -70,32 +68,28 @@ button {
 }
 //Main info
 .infoWrapper{
-   
     padding: 2em 0;
-  
     h2{
         text-align: center;
         
     }
     article{  
-        background-color: #c7ebda;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 50%;
+    background-color: #c7ebda;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     padding: 1rem 3rem;
     border: 3px solid #333333;
-    border-radius: 2% 4% 2% 4% / 1% 1% 2% 2%;  
-        
-}
+    border-radius: 2% 4% 2% 4% / 1% 1% 2% 2%;      
+    }
     
 }
 
 //Footer på begge side
 footer{
     position: static;
-
-  width: 100%;
+    width: 100%;
     background-color: #A4C4B5;
     padding: 0.5em 0;
     text-align: center;
@@ -108,7 +102,6 @@ footer{
         color: #fff; 
         font-family:'EB Garamond', serif;
         cursor: pointer;
-        
         &:hover{
             color: black;
         }

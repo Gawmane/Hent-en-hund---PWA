@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./index.js"></script>
-
+    <!-- Style -->
     <link href="webfonts/all.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- JSON -->
     <link rel="manifest" href="manifest.json">
+    <!-- Javascript  -->
+    <script src="./index.js"></script>
     <title>Hent en hund</title>
 </head>
+
 <body>
-    <header><h1><i class="fas fa-paw"></i> Hent en hund <i class="fas fa-paw"></i></h1>
+    <!-- Header med h1 og pote iconer -->
+    <header>
+        <h1><i class="fas fa-paw"></i> Hent en hund <i class="fas fa-paw"></i>
+        </h1>
     </header>
+
+    <!-- Main med div wrapper der har inhold lavet i javascript -->
     <main>
         <div class="dogWrapper"></div>
+    <!-- button med onclik event der loader side for ny hund  -->
         <button onclick="location.reload();">Klik for ny doggo!</button>
     </main>
+
+    <!-- Footer med link til info side -->
     <footer>
     <a href="info.html">Info</a>
     </footer>
+    
 </body>
 </html>
