@@ -23,8 +23,8 @@ fetch('https://dog.ceo/api/breeds/image/random')
 .then(data => {
     const dogWrapper = document.querySelector('.dogWrapper')
     //Laver en ny div hvor vi indsætter vores image fra vores data (img)
-    const img = document.createElement('div');
-    img.innerHTML = `<img  src='${data.message} '/>`;
+    const img = document.createElement('img');
+    img.setAttribute('src', `${data.message}`);
     dogWrapper.append(img)
 })
 
@@ -37,7 +37,7 @@ fetch('https://dog.ceo/api/breeds/image/random')
         //OPretter h3 der skal give besked om offline når der ingen net forbindelse er
         const h3 = document.createElement('h3');
         h3.innerHTML = 'Du er ofline'
-        h3.style.color = 'red';
+        h3.style.textAlign = 'text-align';
         dogWrapper.append(h3)
 
         //Opretter img og sætter src til vores billede i assets
